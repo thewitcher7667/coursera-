@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
    
@@ -43,7 +43,7 @@
 
 
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     
@@ -85,7 +85,7 @@
     width: 100%;
   }
 }
-@media (min-width: 767px) {
+@media screen and (min-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
@@ -126,6 +126,9 @@
     width: 8.33333333%;
   }
 }
+@media screen and (min-width: 766px){
+  .ex{background-color:blcak;}
+}
 *{
 	margin:0px;
 	padding: 0px;
@@ -133,14 +136,12 @@
 	font-family: 'Handlee', cursive ;
   scroll-behavior:smooth;
   
-
 }
 .img1 {
   
 background: url("img1.png") left center; 
 width: 100%; height:250px; display:block;
 position: static;
-
 
 }
 .f {
@@ -149,6 +150,7 @@ position: static;
  background-color: rgb(198, 197, 193);
  text-align: center;
 width:100%;
+height:300px;
 
 
 }
@@ -157,16 +159,19 @@ width:100%;
 display: block;
 	height:40px;
 	width:40px;
-	float:right;
 	clear: right;
-	position: relative;right:45%;bottom:27%;
-
-
+margin-left: auto;
+  margin-right: auto;
 	text-align: center;
 	border: solid 3px black;
+  display:inline;
+  position:relative;top:8px;left:5px;
 }
 
-
+a:hover, a:active {
+   background-color:black;
+   padding:5px;
+}
 
 
 a:link, a:visited {
@@ -180,7 +185,9 @@ h1 {
 	width:280px;
 	margin-top:2px;
   margin-bottom:2px;
-	position:relative;left:40%;
+	margin-left: auto;
+  margin-right: auto;
+  display:block;
   padding:5px;
  
   
@@ -195,9 +202,15 @@ h1 {
  color: white !important; 
 }
 .bg4 {
-  background: url("bg3.jpg");
+  background: url("bg3.jpg") ;
   width: 100%;
-  margin-bottom: 0px;
+  margin-bottom:0px 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
 }
 
 .a2 {
@@ -207,11 +220,13 @@ h1 {
   margin:2px 50px 50px 50px;
   background-color:rgba(46,49,49,0.8);
   color: white;
+  border-radius: 50px;
 
 
 }
 .a2 div{
   margin-top: 10px;
+  padding:20px;
 }
 
 h3 {
@@ -234,36 +249,87 @@ h4 {
 .ss{
  position:sticky;top:0px; 
   background-color:rgba(46,49,49,0.5);
-  width: 100%;
-  height:35px;
-  overflow: hidden;
-  display:inline-block;
-  
+padding:7.5px;
+height:35px;
+display:block;
 
-}
-.ss1 {
-  border:white solid 3px ;
-  width:5px;
-  height: 3px;
-  margin:10px 0px 0px 50px ;
+  }
+  .ss div{
+    border:white solid 3px ;
+  width:10px;
+  height:30px;
   padding:5px;
-}
-.ss2{
-  float:right;
-  border:white solid 3px ;
-  margin-right:50px;
-  
-}
-.ss3{
-  border:white solid 3px ;
-  width:5px;
-  height: 3px;
-  margin:10px 0px 0px 100px ;
-  padding:5px;
-  folat: left;
-}
+ display:initial;
+ width:100px;
+  }
+.ss1{margin-right: 9%;}
+.ss2{margin-right: 9%;}
+.ss3{margin-right: 9%;}
+.ss4{margin-right: 9%;}
+.ss5{margin-right: 9%;}
 .c{
   background: url("bg2.jpg");
   width: 100%;
   margin-bottom: 0px;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding:50px;
+}
+.cc p {
+  
+  padding: 20px;
+  padding-left:50px; padding-right:50px;
+}
+ .cci { width:50%;  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.cc{
+  
+  background-color:rgba(135,206,235,0.8);
+  border-radius:50px;
+
+}
+.e{
+  background: url("bg1.jfif");
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 650px;
+  text-align: center;
+  font-size:25px;
+width: 100%;
+
+}
+.ee span{
+  float: left;
+  display:block;
+  background-color:grey;}
+.ee div {
+position:relative;right:3%;
+  margin: 30px;
+  background-color:rgba(0,0,0,0.7);
+  width: 150px;
+  display:block;
+  padding: 5px;
+  border-radius: 30px;
+}
+.ee p{
+  padding:10px;
+  margin: 10px;
+  border:groove gold;
+}
+.ee {
+  margin: 10px;
+  padding: 10px;
+  
+  border: black 3px ;
 }
