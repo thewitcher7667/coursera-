@@ -232,15 +232,16 @@ h1 {
 h3 {
 	text-align: center;
 	color: gold;
-	font-size:20px;
+	font-size:35px;
   margin-top:20px;
   text-decoration: overline;
+  margin-bottom:20px;
 
 }
 h4 {
 	position:relative;left:15%;
 	color: lightgoldenrodyellow;
-  font-size:20px;
+  font-size:30px;
 }
 .texta {
 	color: red;
@@ -288,13 +289,14 @@ padding:50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90%;
+  height:400px;
 
 }
 .cc{
   
   background-color:rgba(135,206,235,0.8);
-  border-radius:50px;
+  border-radius:20px;
 
 }
 .e{
@@ -308,7 +310,7 @@ padding:50px;
   background-size: cover;
 padding:3px;
 font-size: 25px;
-height:700px;
+height:650px;
 color: lightsalmon;
 
 }
