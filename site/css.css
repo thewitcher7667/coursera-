@@ -127,7 +127,7 @@
   }
 }
 @media screen and (min-width: 766px){
-  .ex{background-color:blcak;}
+  .e{border:solid black;}
 }
 *{
 	margin:0px;
@@ -250,8 +250,9 @@ h4 {
  position:sticky;top:0px; 
   background-color:rgba(46,49,49,0.5);
 padding:7.5px;
-height:35px;
+height:40px;
 display:block;
+width:fit-content;
 
   }
   .ss div{
@@ -260,13 +261,13 @@ display:block;
   height:30px;
   padding:5px;
  display:initial;
- width:100px;
+ width: 100px;
   }
-.ss1{margin-right: 9%;}
+/**.ss1{margin-right: 9%;}
 .ss2{margin-right: 9%;}
 .ss3{margin-right: 9%;}
 .ss4{margin-right: 9%;}
-.ss5{margin-right: 9%;}
+.ss5{text-align:right;}**/
 .c{
   background: url("bg2.jpg");
   width: 100%;
@@ -297,39 +298,57 @@ padding:50px;
 
 }
 .e{
-  background: url("bg1.jfif");
-   background-attachment: fixed;
+  background: url("bg1.jpg");
+  width: 100%;
+  margin-bottom: 0px;
+  color: white;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  height: 650px;
-  text-align: center;
-  font-size:25px;
-width: 100%;
+padding:3px;
+font-size: 25px;
+height:600px;
+color: lightsalmon;
 
 }
 .ee span{
-  float: left;
+  
   display:block;
-  background-color:grey;}
+
+  
+}
 .ee div {
 position:relative;right:3%;
-  margin: 30px;
+  margin:0px ;
   background-color:rgba(0,0,0,0.7);
   width: 150px;
   display:block;
   padding: 5px;
   border-radius: 30px;
+  border: solid;
 }
 .ee p{
   padding:10px;
-  margin: 10px;
+  margin: 0px 10px 0px 10px;
   border:groove gold;
 }
-.ee {
-  margin: 10px;
-  padding: 10px;
-  
-  border: black 3px ;
+.eee {
+  float :right; 
+  display: block;
+  height:20px;
+  margin-left: 0px;
+}
+.eeee{
+  float :left; 
+  display: block;
+height:20px;
+
+}
+#ea{
+ height:50px;
+  padding:0px;
+
+ 
+
 }
