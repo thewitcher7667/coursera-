@@ -129,11 +129,11 @@
 @media screen and (min-width: 766px){
   .e{border:solid black;}
 }
+h1 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 50px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 *{
 	margin:0px;
 	padding: 0px;
 	box-sizing:border-box;
-	font-family: 'Handlee', cursive ;
   scroll-behavior:smooth;
   
 }
